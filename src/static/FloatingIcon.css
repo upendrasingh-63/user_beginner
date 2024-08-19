@@ -1,0 +1,44 @@
+.floating-icon {
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50px;
+    height: 50px;
+    background-color: #61dafb;
+    color: #ffffff;
+    border-radius: 50%;
+    cursor: pointer;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    text-align: center;
+    font-size: 1rem;
+  }
+  
+  .menu {
+    position: absolute;
+    top: 60px; /* Position menu below the icon */
+    left: -10px; /* Center menu relative to the icon */
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .menu button {
+    background: #61dafb;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 5px;
+    cursor: pointer;
+    font-size: 0.9rem;
+  }
+  
+  .menu button:hover {
+    background: #4db8ff;
+  }
+  

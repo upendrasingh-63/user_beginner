@@ -1,0 +1,7 @@
+react hook-allow use function component instead of class component
+usestate=create statefull variable and its function to store this in dom
+onChange=event handler used in form for element <input> etc,trigger when input change
+updater function: pass  function in setYear(arrow function) for better practice
+useEffect(()=>{},[])
+useContext=allow to pass props to many child element many times
+useRef=similar usestate but not re render everytime
